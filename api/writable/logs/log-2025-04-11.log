@@ -1,0 +1,562 @@
+CRITICAL - 2025-04-11 21:04:12 --> Error: Call to undefined method CodeIgniter\Router\RouteCollection::geet()
+[Method: GET, Route: token]
+in APPPATH/Config/Routes.php on line 15.
+ 1 SYSTEMPATH/Router/RouteCollection.php(799): CodeIgniter\Router\RouteCollection->{closure}(Object(CodeIgniter\Router\RouteCollection))
+ 2 APPPATH/Config/Routes.php(14): CodeIgniter\Router\RouteCollection->group('api', Object(Closure))
+ 3 SYSTEMPATH/Router/RouteCollection.php(339): require('/var/www/api/app/Config/Routes.php')
+ 4 SYSTEMPATH/CodeIgniter.php(821): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 5 SYSTEMPATH/CodeIgniter.php(455): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 6 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-11 21:04:32 --> Error: Call to undefined method CodeIgniter\Router\RouteCollection::geet()
+[Method: GET, Route: token]
+in APPPATH/Config/Routes.php on line 15.
+ 1 SYSTEMPATH/Router/RouteCollection.php(799): CodeIgniter\Router\RouteCollection->{closure}(Object(CodeIgniter\Router\RouteCollection))
+ 2 APPPATH/Config/Routes.php(14): CodeIgniter\Router\RouteCollection->group('api', Object(Closure))
+ 3 SYSTEMPATH/Router/RouteCollection.php(339): require('/var/www/api/app/Config/Routes.php')
+ 4 SYSTEMPATH/CodeIgniter.php(821): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 5 SYSTEMPATH/CodeIgniter.php(455): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 6 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-11 21:05:10 --> Error: Call to undefined method CodeIgniter\Router\RouteCollection::geet()
+[Method: GET, Route: token]
+in APPPATH/Config/Routes.php on line 15.
+ 1 SYSTEMPATH/Router/RouteCollection.php(799): CodeIgniter\Router\RouteCollection->{closure}(Object(CodeIgniter\Router\RouteCollection))
+ 2 APPPATH/Config/Routes.php(14): CodeIgniter\Router\RouteCollection->group('api', Object(Closure))
+ 3 SYSTEMPATH/Router/RouteCollection.php(339): require('/var/www/api/app/Config/Routes.php')
+ 4 SYSTEMPATH/CodeIgniter.php(821): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 5 SYSTEMPATH/CodeIgniter.php(455): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 6 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-11 21:06:07 --> Error: Call to undefined method CodeIgniter\Router\RouteCollection::geet()
+[Method: GET, Route: token]
+in APPPATH/Config/Routes.php on line 15.
+ 1 SYSTEMPATH/Router/RouteCollection.php(799): CodeIgniter\Router\RouteCollection->{closure}(Object(CodeIgniter\Router\RouteCollection))
+ 2 APPPATH/Config/Routes.php(14): CodeIgniter\Router\RouteCollection->group('api', Object(Closure))
+ 3 SYSTEMPATH/Router/RouteCollection.php(339): require('/var/www/api/app/Config/Routes.php')
+ 4 SYSTEMPATH/CodeIgniter.php(821): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 5 SYSTEMPATH/CodeIgniter.php(455): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 6 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-11 21:07:12 --> Error: Call to undefined method CodeIgniter\Router\RouteCollection::geet()
+[Method: GET, Route: token]
+in APPPATH/Config/Routes.php on line 15.
+ 1 SYSTEMPATH/Router/RouteCollection.php(799): CodeIgniter\Router\RouteCollection->{closure}(Object(CodeIgniter\Router\RouteCollection))
+ 2 APPPATH/Config/Routes.php(14): CodeIgniter\Router\RouteCollection->group('api', Object(Closure))
+ 3 SYSTEMPATH/Router/RouteCollection.php(339): require('/var/www/api/app/Config/Routes.php')
+ 4 SYSTEMPATH/CodeIgniter.php(821): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 5 SYSTEMPATH/CodeIgniter.php(455): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 6 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-11 21:07:48 --> Error: Call to undefined method CodeIgniter\Router\RouteCollection::geet()
+[Method: GET, Route: token]
+in APPPATH/Config/Routes.php on line 15.
+ 1 SYSTEMPATH/Router/RouteCollection.php(799): CodeIgniter\Router\RouteCollection->{closure}(Object(CodeIgniter\Router\RouteCollection))
+ 2 APPPATH/Config/Routes.php(14): CodeIgniter\Router\RouteCollection->group('api', Object(Closure))
+ 3 SYSTEMPATH/Router/RouteCollection.php(339): require('/var/www/api/app/Config/Routes.php')
+ 4 SYSTEMPATH/CodeIgniter.php(821): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 5 SYSTEMPATH/CodeIgniter.php(455): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 6 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-11 21:07:51 --> Error: Call to undefined method CodeIgniter\Router\RouteCollection::geet()
+[Method: GET, Route: token]
+in APPPATH/Config/Routes.php on line 15.
+ 1 SYSTEMPATH/Router/RouteCollection.php(799): CodeIgniter\Router\RouteCollection->{closure}(Object(CodeIgniter\Router\RouteCollection))
+ 2 APPPATH/Config/Routes.php(14): CodeIgniter\Router\RouteCollection->group('api', Object(Closure))
+ 3 SYSTEMPATH/Router/RouteCollection.php(339): require('/var/www/api/app/Config/Routes.php')
+ 4 SYSTEMPATH/CodeIgniter.php(821): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 5 SYSTEMPATH/CodeIgniter.php(455): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 6 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-11 21:08:20 --> Error: Call to undefined method CodeIgniter\Router\RouteCollection::geet()
+[Method: GET, Route: token]
+in APPPATH/Config/Routes.php on line 15.
+ 1 SYSTEMPATH/Router/RouteCollection.php(799): CodeIgniter\Router\RouteCollection->{closure}(Object(CodeIgniter\Router\RouteCollection))
+ 2 APPPATH/Config/Routes.php(14): CodeIgniter\Router\RouteCollection->group('api', Object(Closure))
+ 3 SYSTEMPATH/Router/RouteCollection.php(339): require('/var/www/api/app/Config/Routes.php')
+ 4 SYSTEMPATH/CodeIgniter.php(821): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 5 SYSTEMPATH/CodeIgniter.php(455): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 6 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-11 21:08:22 --> Error: Call to undefined method CodeIgniter\Router\RouteCollection::geet()
+[Method: GET, Route: token]
+in APPPATH/Config/Routes.php on line 15.
+ 1 SYSTEMPATH/Router/RouteCollection.php(799): CodeIgniter\Router\RouteCollection->{closure}(Object(CodeIgniter\Router\RouteCollection))
+ 2 APPPATH/Config/Routes.php(14): CodeIgniter\Router\RouteCollection->group('api', Object(Closure))
+ 3 SYSTEMPATH/Router/RouteCollection.php(339): require('/var/www/api/app/Config/Routes.php')
+ 4 SYSTEMPATH/CodeIgniter.php(821): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 5 SYSTEMPATH/CodeIgniter.php(455): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 6 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-11 21:09:28 --> Error: Call to undefined method CodeIgniter\Router\RouteCollection::geet()
+[Method: GET, Route: token]
+in APPPATH/Config/Routes.php on line 15.
+ 1 SYSTEMPATH/Router/RouteCollection.php(799): CodeIgniter\Router\RouteCollection->{closure}(Object(CodeIgniter\Router\RouteCollection))
+ 2 APPPATH/Config/Routes.php(14): CodeIgniter\Router\RouteCollection->group('api', Object(Closure))
+ 3 SYSTEMPATH/Router/RouteCollection.php(339): require('/var/www/api/app/Config/Routes.php')
+ 4 SYSTEMPATH/CodeIgniter.php(821): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 5 SYSTEMPATH/CodeIgniter.php(455): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 6 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-11 21:10:56 --> InvalidArgumentException: key must be a string when using hmac
+[Method: GET, Route: token]
+in VENDORPATH/firebase/php-jwt/src/JWT.php on line 249.
+ 1 VENDORPATH/firebase/php-jwt/src/JWT.php(219): Firebase\JWT\JWT::sign('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJJc3N1ZXIgb2YgdGhlIEpXVCIsImF1ZCI6IkF1ZGllbmNlIHRoYXQgdGhlIEpXVCIsInN1YiI6IlN1YmplY3Qgb2YgdGhlIEpXVCIsImlhdCI6MTc0NDQwNTg1NiwiZXhwIjoxNzQ0NDA5NDU2fQ', false, 'HS256')
+ 2 APPPATH/Controllers/Token.php(25): Firebase\JWT\JWT::encode([...], false, 'HS256')
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Token->index()
+ 4 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Token))
+ 5 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-11 21:10:59 --> InvalidArgumentException: key must be a string when using hmac
+[Method: GET, Route: token]
+in VENDORPATH/firebase/php-jwt/src/JWT.php on line 249.
+ 1 VENDORPATH/firebase/php-jwt/src/JWT.php(219): Firebase\JWT\JWT::sign('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJJc3N1ZXIgb2YgdGhlIEpXVCIsImF1ZCI6IkF1ZGllbmNlIHRoYXQgdGhlIEpXVCIsInN1YiI6IlN1YmplY3Qgb2YgdGhlIEpXVCIsImlhdCI6MTc0NDQwNTg1OSwiZXhwIjoxNzQ0NDA5NDU5fQ', false, 'HS256')
+ 2 APPPATH/Controllers/Token.php(25): Firebase\JWT\JWT::encode([...], false, 'HS256')
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Token->index()
+ 4 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Token))
+ 5 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-11 21:12:23 --> InvalidArgumentException: key must be a string when using hmac
+[Method: GET, Route: token]
+in VENDORPATH/firebase/php-jwt/src/JWT.php on line 249.
+ 1 VENDORPATH/firebase/php-jwt/src/JWT.php(219): Firebase\JWT\JWT::sign('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJJc3N1ZXIgb2YgdGhlIEpXVCIsImF1ZCI6IkF1ZGllbmNlIHRoYXQgdGhlIEpXVCIsInN1YiI6IlN1YmplY3Qgb2YgdGhlIEpXVCIsImlhdCI6MTc0NDQwNTk0MywiZXhwIjoxNzQ0NDA5NTQzfQ', false, 'HS256')
+ 2 APPPATH/Controllers/Token.php(25): Firebase\JWT\JWT::encode([...], false, 'HS256')
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Token->index()
+ 4 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Token))
+ 5 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-11 21:13:46 --> ErrorException: Undefined array key "api.jwt_secret"
+[Method: GET, Route: token]
+in APPPATH/Controllers/Token.php on line 13.
+ 1 APPPATH/Controllers/Token.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "api.jwt_secret"', '/var/www/api/app/Controllers/Token.php', 13)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Token->index()
+ 3 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Token))
+ 4 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-11 21:13:49 --> ErrorException: Undefined array key "api.jwt_secret"
+[Method: GET, Route: token]
+in APPPATH/Controllers/Token.php on line 13.
+ 1 APPPATH/Controllers/Token.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "api.jwt_secret"', '/var/www/api/app/Controllers/Token.php', 13)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Token->index()
+ 3 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Token))
+ 4 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-11 21:16:12 --> ErrorException: Undefined array key "api.jwt_secret"
+[Method: GET, Route: token]
+in APPPATH/Controllers/Token.php on line 13.
+ 1 APPPATH/Controllers/Token.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "api.jwt_secret"', '/var/www/api/app/Controllers/Token.php', 13)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Token->index()
+ 3 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Token))
+ 4 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-11 21:30:45 --> TypeError: Key material must be a string, resource, or OpenSSLAsymmetricKey
+[Method: GET, Route: leads]
+in VENDORPATH/firebase/php-jwt/src/Key.php on line 26.
+ 1 APPPATH/Filters/AuthFilter.php(50): Firebase\JWT\Key->__construct(false, 'HS256')
+ 2 SYSTEMPATH/Filters/Filters.php(241): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/Filters/Filters.php(221): CodeIgniter\Filters\Filters->runBefore([...])
+ 4 SYSTEMPATH/CodeIgniter.php(479): CodeIgniter\Filters\Filters->run('leads', 'before')
+ 5 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-11 21:38:50 --> TypeError: Key material must be a string, resource, or OpenSSLAsymmetricKey
+[Method: GET, Route: leads]
+in VENDORPATH/firebase/php-jwt/src/Key.php on line 26.
+ 1 APPPATH/Filters/AuthFilter.php(52): Firebase\JWT\Key->__construct(false, 'HS256')
+ 2 SYSTEMPATH/Filters/Filters.php(241): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/Filters/Filters.php(221): CodeIgniter\Filters\Filters->runBefore([...])
+ 4 SYSTEMPATH/CodeIgniter.php(479): CodeIgniter\Filters\Filters->run('leads', 'before')
+ 5 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-11 21:39:51 --> TypeError: Key material must be a string, resource, or OpenSSLAsymmetricKey
+[Method: GET, Route: leads]
+in VENDORPATH/firebase/php-jwt/src/Key.php on line 26.
+ 1 APPPATH/Filters/AuthFilter.php(51): Firebase\JWT\Key->__construct(false, 'HS256')
+ 2 SYSTEMPATH/Filters/Filters.php(241): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/Filters/Filters.php(221): CodeIgniter\Filters\Filters->runBefore([...])
+ 4 SYSTEMPATH/CodeIgniter.php(479): CodeIgniter\Filters\Filters->run('leads', 'before')
+ 5 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-11 21:40:16 --> TypeError: Key material must be a string, resource, or OpenSSLAsymmetricKey
+[Method: GET, Route: leads]
+in VENDORPATH/firebase/php-jwt/src/Key.php on line 26.
+ 1 APPPATH/Filters/AuthFilter.php(51): Firebase\JWT\Key->__construct(false, 'HS256')
+ 2 SYSTEMPATH/Filters/Filters.php(241): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/Filters/Filters.php(221): CodeIgniter\Filters\Filters->runBefore([...])
+ 4 SYSTEMPATH/CodeIgniter.php(479): CodeIgniter\Filters\Filters->run('leads', 'before')
+ 5 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-11 21:41:59 --> TypeError: Key material must be a string, resource, or OpenSSLAsymmetricKey
+[Method: GET, Route: leads]
+in VENDORPATH/firebase/php-jwt/src/Key.php on line 26.
+ 1 APPPATH/Filters/AuthFilter.php(51): Firebase\JWT\Key->__construct(false, 'HS256')
+ 2 SYSTEMPATH/Filters/Filters.php(241): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/Filters/Filters.php(221): CodeIgniter\Filters\Filters->runBefore([...])
+ 4 SYSTEMPATH/CodeIgniter.php(479): CodeIgniter\Filters\Filters->run('leads', 'before')
+ 5 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-11 21:43:58 --> CodeIgniter\Filters\Exceptions\FilterException: "authFilter" filter must have a matching alias defined.
+[Method: GET, Route: leads]
+in SYSTEMPATH/Filters/Filters.php on line 590.
+ 1 SYSTEMPATH/Filters/Filters.php(590): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('authFilter')
+ 2 SYSTEMPATH/Filters/Filters.php(641): CodeIgniter\Filters\Filters->enableFilter('authFilter', 'before')
+ 3 SYSTEMPATH/CodeIgniter.php(467): CodeIgniter\Filters\Filters->enableFilters([...], 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-11 21:44:00 --> CodeIgniter\Filters\Exceptions\FilterException: "authFilter" filter must have a matching alias defined.
+[Method: GET, Route: leads]
+in SYSTEMPATH/Filters/Filters.php on line 590.
+ 1 SYSTEMPATH/Filters/Filters.php(590): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('authFilter')
+ 2 SYSTEMPATH/Filters/Filters.php(641): CodeIgniter\Filters\Filters->enableFilter('authFilter', 'before')
+ 3 SYSTEMPATH/CodeIgniter.php(467): CodeIgniter\Filters\Filters->enableFilters([...], 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-11 21:45:39 --> CodeIgniter\Filters\Exceptions\FilterException: "authFilter" filter must have a matching alias defined.
+[Method: GET, Route: leads]
+in SYSTEMPATH/Filters/Filters.php on line 590.
+ 1 SYSTEMPATH/Filters/Filters.php(590): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('authFilter')
+ 2 SYSTEMPATH/Filters/Filters.php(641): CodeIgniter\Filters\Filters->enableFilter('authFilter', 'before')
+ 3 SYSTEMPATH/CodeIgniter.php(467): CodeIgniter\Filters\Filters->enableFilters([...], 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-11 21:45:43 --> CodeIgniter\Filters\Exceptions\FilterException: "authFilter" filter must have a matching alias defined.
+[Method: GET, Route: leads]
+in SYSTEMPATH/Filters/Filters.php on line 590.
+ 1 SYSTEMPATH/Filters/Filters.php(590): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('authFilter')
+ 2 SYSTEMPATH/Filters/Filters.php(641): CodeIgniter\Filters\Filters->enableFilter('authFilter', 'before')
+ 3 SYSTEMPATH/CodeIgniter.php(467): CodeIgniter\Filters\Filters->enableFilters([...], 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-11 21:46:19 --> CodeIgniter\Filters\Exceptions\FilterException: "authFilter" filter must have a matching alias defined.
+[Method: GET, Route: leads]
+in SYSTEMPATH/Filters/Filters.php on line 590.
+ 1 SYSTEMPATH/Filters/Filters.php(590): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('authFilter')
+ 2 SYSTEMPATH/Filters/Filters.php(641): CodeIgniter\Filters\Filters->enableFilter('authFilter', 'before')
+ 3 SYSTEMPATH/CodeIgniter.php(467): CodeIgniter\Filters\Filters->enableFilters([...], 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-11 21:46:19 --> CodeIgniter\Filters\Exceptions\FilterException: "authFilter" filter must have a matching alias defined.
+[Method: GET, Route: leads]
+in SYSTEMPATH/Filters/Filters.php on line 590.
+ 1 SYSTEMPATH/Filters/Filters.php(590): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('authFilter')
+ 2 SYSTEMPATH/Filters/Filters.php(641): CodeIgniter\Filters\Filters->enableFilter('authFilter', 'before')
+ 3 SYSTEMPATH/CodeIgniter.php(467): CodeIgniter\Filters\Filters->enableFilters([...], 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-11 21:47:11 --> Error: Call to a member function findAll() on null
+[Method: GET, Route: leads]
+in APPPATH/Controllers/Leads.php on line 15.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Leads->index()
+ 2 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Leads))
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-11 21:47:14 --> Error: Call to a member function findAll() on null
+[Method: GET, Route: leads]
+in APPPATH/Controllers/Leads.php on line 15.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Leads->index()
+ 2 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Leads))
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-11 21:47:26 --> Error: Call to a member function findAll() on null
+[Method: GET, Route: leads]
+in APPPATH/Controllers/Leads.php on line 15.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Leads->index()
+ 2 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Leads))
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-11 21:47:37 --> Error: Call to a member function findAll() on null
+[Method: GET, Route: leads]
+in APPPATH/Controllers/Leads.php on line 15.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Leads->index()
+ 2 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Leads))
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-11 21:47:39 --> Error: Call to a member function findAll() on null
+[Method: GET, Route: leads]
+in APPPATH/Controllers/Leads.php on line 15.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Leads->index()
+ 2 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Leads))
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-11 21:48:13 --> Error: Call to a member function findAll() on null
+[Method: GET, Route: leads]
+in APPPATH/Controllers/Leads.php on line 15.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Leads->index()
+ 2 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Leads))
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-11 21:48:57 --> Error: Call to a member function findAll() on null
+[Method: GET, Route: leads]
+in APPPATH/Controllers/Leads.php on line 15.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Leads->index()
+ 2 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Leads))
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-11 21:49:27 --> Error: Call to a member function findAll() on null
+[Method: GET, Route: leads]
+in APPPATH/Controllers/Leads.php on line 15.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Leads->index()
+ 2 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Leads))
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-11 21:49:30 --> Error: Call to a member function findAll() on null
+[Method: GET, Route: leads]
+in APPPATH/Controllers/Leads.php on line 15.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Leads->index()
+ 2 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Leads))
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-11 21:57:52 --> Error: Call to a member function findAll() on null
+[Method: GET, Route: leads]
+in APPPATH/Controllers/Leads.php on line 15.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Leads->index()
+ 2 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Leads))
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-11 21:59:05 --> Error: Call to a member function findAll() on null
+[Method: GET, Route: leads]
+in APPPATH/Controllers/Leads.php on line 15.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Leads->index()
+ 2 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Leads))
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-11 22:00:29 --> Error: Call to a member function findAll() on null
+[Method: GET, Route: leads]
+in APPPATH/Controllers/Leads.php on line 15.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Leads->index()
+ 2 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Leads))
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-11 22:00:47 --> Error: Call to a member function findAll() on null
+[Method: GET, Route: leads]
+in APPPATH/Controllers/Leads.php on line 15.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Leads->index()
+ 2 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Leads))
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-11 22:01:12 --> Error: Call to a member function findAll() on string
+[Method: GET, Route: leads]
+in APPPATH/Controllers/Leads.php on line 15.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Leads->index()
+ 2 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Leads))
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-11 22:02:47 --> CodeIgniter\Filters\Exceptions\FilterException: "authFilter" filter must have a matching alias defined.
+[Method: GET, Route: leads]
+in SYSTEMPATH/Filters/Filters.php on line 590.
+ 1 SYSTEMPATH/Filters/Filters.php(590): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('authFilter')
+ 2 SYSTEMPATH/Filters/Filters.php(641): CodeIgniter\Filters\Filters->enableFilter('authFilter', 'before')
+ 3 SYSTEMPATH/CodeIgniter.php(467): CodeIgniter\Filters\Filters->enableFilters([...], 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-04-11 22:10:45 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'ci4' in /var/www/api/system/Database/MySQLi/Connection.php:201
+Stack trace:
+#0 /var/www/api/system/Database/MySQLi/Connection.php(201): mysqli->real_connect('mysql', 'root', Object(SensitiveParameterValue), 'ci4', 3306, '', 0)
+#1 /var/www/api/system/Database/BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /var/www/api/system/Database/BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+#3 /var/www/api/system/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /var/www/api/system/Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/api/system/BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+#6 /var/www/api/app/Controllers/Leads.php(16): CodeIgniter\BaseModel->findAll()
+#7 /var/www/api/system/CodeIgniter.php(933): App\Controllers\Leads->index()
+#8 /var/www/api/system/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Leads))
+#9 /var/www/api/system/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /var/www/api/system/Boot.php(334): CodeIgniter\CodeIgniter->run()
+#11 /var/www/api/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 /var/www/api/public/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'ci4' in /var/www/api/system/Database/MySQLi/Connection.php:246
+Stack trace:
+#0 /var/www/api/system/Database/BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /var/www/api/system/Database/BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+#2 /var/www/api/system/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 /var/www/api/system/Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#4 /var/www/api/system/BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+#5 /var/www/api/app/Controllers/Leads.php(16): CodeIgniter\BaseModel->findAll()
+#6 /var/www/api/system/CodeIgniter.php(933): App\Controllers\Leads->index()
+#7 /var/www/api/system/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Leads))
+#8 /var/www/api/system/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /var/www/api/system/Boot.php(334): CodeIgniter\CodeIgniter->run()
+#10 /var/www/api/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 /var/www/api/public/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+ERROR - 2025-04-11 22:10:51 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'ci4' in /var/www/api/system/Database/MySQLi/Connection.php:201
+Stack trace:
+#0 /var/www/api/system/Database/MySQLi/Connection.php(201): mysqli->real_connect('mysql', 'root', Object(SensitiveParameterValue), 'ci4', 3306, '', 0)
+#1 /var/www/api/system/Database/BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /var/www/api/system/Database/BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+#3 /var/www/api/system/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /var/www/api/system/Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/api/system/BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+#6 /var/www/api/app/Controllers/Leads.php(16): CodeIgniter\BaseModel->findAll()
+#7 /var/www/api/system/CodeIgniter.php(933): App\Controllers\Leads->index()
+#8 /var/www/api/system/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Leads))
+#9 /var/www/api/system/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /var/www/api/system/Boot.php(334): CodeIgniter\CodeIgniter->run()
+#11 /var/www/api/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 /var/www/api/public/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'ci4' in /var/www/api/system/Database/MySQLi/Connection.php:246
+Stack trace:
+#0 /var/www/api/system/Database/BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /var/www/api/system/Database/BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+#2 /var/www/api/system/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 /var/www/api/system/Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#4 /var/www/api/system/BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+#5 /var/www/api/app/Controllers/Leads.php(16): CodeIgniter\BaseModel->findAll()
+#6 /var/www/api/system/CodeIgniter.php(933): App\Controllers\Leads->index()
+#7 /var/www/api/system/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Leads))
+#8 /var/www/api/system/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /var/www/api/system/Boot.php(334): CodeIgniter\CodeIgniter->run()
+#10 /var/www/api/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 /var/www/api/public/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+ERROR - 2025-04-11 22:11:03 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'leads-api' in /var/www/api/system/Database/MySQLi/Connection.php:201
+Stack trace:
+#0 /var/www/api/system/Database/MySQLi/Connection.php(201): mysqli->real_connect('mysql', 'root', Object(SensitiveParameterValue), 'leads-api', 3306, '', 0)
+#1 /var/www/api/system/Database/BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /var/www/api/system/Database/BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+#3 /var/www/api/system/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /var/www/api/system/Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/api/system/BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+#6 /var/www/api/app/Controllers/Leads.php(16): CodeIgniter\BaseModel->findAll()
+#7 /var/www/api/system/CodeIgniter.php(933): App\Controllers\Leads->index()
+#8 /var/www/api/system/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Leads))
+#9 /var/www/api/system/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /var/www/api/system/Boot.php(334): CodeIgniter\CodeIgniter->run()
+#11 /var/www/api/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 /var/www/api/public/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'leads-api' in /var/www/api/system/Database/MySQLi/Connection.php:246
+Stack trace:
+#0 /var/www/api/system/Database/BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /var/www/api/system/Database/BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+#2 /var/www/api/system/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 /var/www/api/system/Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#4 /var/www/api/system/BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+#5 /var/www/api/app/Controllers/Leads.php(16): CodeIgniter\BaseModel->findAll()
+#6 /var/www/api/system/CodeIgniter.php(933): App\Controllers\Leads->index()
+#7 /var/www/api/system/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Leads))
+#8 /var/www/api/system/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /var/www/api/system/Boot.php(334): CodeIgniter\CodeIgniter->run()
+#10 /var/www/api/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 /var/www/api/public/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+ERROR - 2025-04-11 22:11:22 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'leads-api' in /var/www/api/system/Database/MySQLi/Connection.php:201
+Stack trace:
+#0 /var/www/api/system/Database/MySQLi/Connection.php(201): mysqli->real_connect('mysql', 'root', Object(SensitiveParameterValue), 'leads-api', 3306, '', 0)
+#1 /var/www/api/system/Database/BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /var/www/api/system/Database/BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+#3 /var/www/api/system/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /var/www/api/system/Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/api/system/BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+#6 /var/www/api/app/Controllers/Leads.php(16): CodeIgniter\BaseModel->findAll()
+#7 /var/www/api/system/CodeIgniter.php(933): App\Controllers\Leads->index()
+#8 /var/www/api/system/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Leads))
+#9 /var/www/api/system/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /var/www/api/system/Boot.php(334): CodeIgniter\CodeIgniter->run()
+#11 /var/www/api/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 /var/www/api/public/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'leads-api' in /var/www/api/system/Database/MySQLi/Connection.php:246
+Stack trace:
+#0 /var/www/api/system/Database/BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /var/www/api/system/Database/BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+#2 /var/www/api/system/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 /var/www/api/system/Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#4 /var/www/api/system/BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+#5 /var/www/api/app/Controllers/Leads.php(16): CodeIgniter\BaseModel->findAll()
+#6 /var/www/api/system/CodeIgniter.php(933): App\Controllers\Leads->index()
+#7 /var/www/api/system/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Leads))
+#8 /var/www/api/system/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /var/www/api/system/Boot.php(334): CodeIgniter\CodeIgniter->run()
+#10 /var/www/api/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 /var/www/api/public/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
