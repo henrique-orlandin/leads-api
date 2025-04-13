@@ -13,7 +13,7 @@ class Token extends ResourceController
     {
         $key = getenv('api.jwt_secret');
         $iat = time();
-        $exp = $iat + 60 * 60 * 24; // 1 day expiration
+        $exp = $iat + 60 * 60 * 24; // 1 day expiration for testing purposes
  
         $payload = array(
             "iat" => $iat,

@@ -21,4 +21,12 @@ class LeadsModel extends Model
         'birthdate'  => 'required|valid_date[Y-m-d]',
         'extra'      => 'permit_empty|valid_json',
     ];
+    protected $validationMessages = [
+        'email' => [
+            'is_unique' => 'There is already a lead register with this email account.',
+        ],
+        'extra' => [
+            'valid_json' => 'The extra lead information must be a valid JSON string.',
+        ],
+    ];
 }

@@ -1,4 +1,6 @@
 /api/vendor/
+/api/.env
+/laradock/.env
 */logs/*
 !*/logs/index.html
 */cache/*

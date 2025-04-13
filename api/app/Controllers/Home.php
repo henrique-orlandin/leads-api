@@ -6,6 +6,9 @@ class Home extends BaseController
 {
     public function index(): string
     {
-        return view('import_leads_form');
+        $pageData = [
+            'page_title' => 'True Path Leads API',
+        ];
+        return view('api_ui', $pageData);
     }
 }

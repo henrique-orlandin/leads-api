@@ -4,7 +4,7 @@ namespace App\Database\Migrations;
 
 use CodeIgniter\Database\Migration;
 
-class Leads extends Migration
+class Logs extends Migration
 {
     public function up()
     {
@@ -14,45 +14,45 @@ class Leads extends Migration
                 'constraint' => 11,
                 'auto_increment' => true,
             ],
-            'first_name' => [
+            'ip' => [
                 'type' => 'VARCHAR',
-                'constraint' => 255,
+                'constraint' => 50,
             ],
-            'last_name' => [
+            'uri' => [
                 'type' => 'VARCHAR',
-                'constraint' => 255,
+                'constraint' => 50,
             ],
-            'email' => [
+            'method' => [
                 'type' => 'VARCHAR',
-                'constraint' => 255,
+                'constraint' => 50,
             ],
-            'phone' => [
-                'type' => 'VARCHAR',
-                'constraint' => 20,
-            ],
-            'birthdate' => [
-                'type' => 'DATE',
-            ],
-            'extra' => [
+            'headers' => [
                 'type' => 'JSON',
+            ],
+            'body' => [
+                'type' => 'JSON',
+            ],
+            'response' => [
+                'type' => 'JSON',
+                'null' => true,
+            ],
+            'status' => [
+                'type' => 'INT',
+                'constraint' => 3,
                 'null' => true,
             ],
             'created_at' => [
                 'type' => 'DATETIME',
                 'default' => date('Y-m-d H:i:s'),
             ],
-            'updated_at' => [
-                'type' => 'DATETIME',
-                'default' => date('Y-m-d H:i:s'),
-            ],
         ]);
 
         $this->forge->addKey('id', true);
-        $this->forge->createTable('leads');
+        $this->forge->createTable('logs');
     }
 
     public function down()
     {
-        $this->forge->dropTable('leads');
+        $this->forge->dropTable('logs');
     }
 }

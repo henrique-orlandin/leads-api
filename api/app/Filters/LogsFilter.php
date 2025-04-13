@@ -28,8 +28,9 @@ class LogsFilter implements FilterInterface
      */
     public function before(RequestInterface $request, $arguments = null)
     {
-        // Log the request
         $requestData = service('request');
+
+        // Add the request data to the logs
         $logsModel = new LogsModel();
         $logData = [
             'ip' => $request->getIPAddress(),
@@ -74,9 +75,9 @@ class LogsFilter implements FilterInterface
      */
     public function after(RequestInterface $request, ResponseInterface $response, $arguments = null)
     {
-        // Log the response
         $responseData = service('response');
 
+        // Add the response data to the logs
         $logsModel = new LogsModel();
         $logData = [
             'response' => json_encode($responseData->getBody()),

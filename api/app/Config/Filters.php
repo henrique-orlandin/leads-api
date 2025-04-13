@@ -107,5 +107,5 @@ class Filters extends BaseFilters
      *
      * @var array<string, array<string, list<string>>>
      */
-    public array $filters = ['logsFilter' => ['before' => ['leads/*', 'token/*'], 'after' => ['leads/*', 'token/*']]]; // Logs filter for all routes
+    public array $filters = ['logsFilter' => ['before' => ['leads*', 'token*'], 'after' => ['leads*', 'token*']]]; // Logs filter for all routes
 }

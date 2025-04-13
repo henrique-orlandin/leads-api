@@ -38,11 +38,17 @@ class AuthFilter implements FilterInterface
             }
         }
   
+        $error = json_encode([
+            "status" => 401,
+            "error" => 401,
+            "messages" => [
+                "error" => "Unauthorized access! Please provide a valid token."
+            ]
+        ]);
+        $errorCode = 401;
+
         // check if token is null or empty
         if (is_null($token) || empty($token)) {
-            $error = json_encode(['error' => 'Invalid token']);
-            $errorCode = 401;
-
             $response = service('response');
             $response->setHeader('Content-Type', 'application/json');
             $response->setBody($error);
@@ -54,9 +60,6 @@ class AuthFilter implements FilterInterface
         try {
             JWT::decode($token, new Key($key, 'HS256'));
         } catch (\Exception $ex) {
-            $error = json_encode(['error' => 'Invalid token']);
-            $errorCode = 401;
-
             $response = service('response');
             $response->setHeader('Content-Type', 'application/json');
             $response->setBody($error);
