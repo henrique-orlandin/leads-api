@@ -11,9 +11,9 @@ class Token extends ResourceController
 
     public function index()
     {
-        $key = JWT_SECRET;
+        $key = getenv('api.jwt_secret');
         $iat = time();
-        $exp = $iat + 3600;
+        $exp = $iat + 60 * 60 * 24; // 1 day expiration
  
         $payload = array(
             "iat" => $iat,
@@ -27,11 +27,7 @@ class Token extends ResourceController
                 'token' => $token
             ];
         } catch (\Exception $e) {
-            $response = [
-                'error' => 'Failed to generate token',
-                'message' => $e->getMessage()
-            ];
-            return $this->fail($response, 500);
+            return $this->fail('Failed to generate token', 500);
         }
 
         return $this->respond($response, 200);

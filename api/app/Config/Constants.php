@@ -77,8 +77,3 @@ defined('EXIT_USER_INPUT')     || define('EXIT_USER_INPUT', 7);     // invalid u
 defined('EXIT_DATABASE')       || define('EXIT_DATABASE', 8);       // database error
 defined('EXIT__AUTO_MIN')      || define('EXIT__AUTO_MIN', 9);      // lowest automatically-assigned error code
 defined('EXIT__AUTO_MAX')      || define('EXIT__AUTO_MAX', 125);    // highest automatically-assigned error code
-
-/**
- * JWT Secret Key
- */
-define('JWT_SECRET', 'a9821534fc5c8bef29b6d9dacfb6ed2c6c1be78f7178c0c4a52a972bbb5d7516');

@@ -40,20 +40,28 @@ class AuthFilter implements FilterInterface
   
         // check if token is null or empty
         if (is_null($token) || empty($token)) {
+            $error = json_encode(['error' => 'Invalid token']);
+            $errorCode = 401;
+
             $response = service('response');
-            $response->setBody('{"error": "Invalid token"}');
             $response->setHeader('Content-Type', 'application/json');
-            $response->setStatusCode(401);
+            $response->setBody($error);
+            $response->setStatusCode($errorCode);
+
             return $response;
         }
   
         try {
             JWT::decode($token, new Key($key, 'HS256'));
         } catch (\Exception $ex) {
+            $error = json_encode(['error' => 'Invalid token']);
+            $errorCode = 401;
+
             $response = service('response');
-            $response->setBody('{"error": "Invalid token"}');
             $response->setHeader('Content-Type', 'application/json');
-            $response->setStatusCode(401);
+            $response->setBody($error);
+            $response->setStatusCode($errorCode);
+
             return $response;
         }
     }
@@ -72,6 +80,6 @@ class AuthFilter implements FilterInterface
      */
     public function after(RequestInterface $request, ResponseInterface $response, $arguments = null)
     {
-        //
+        
     }
 }

@@ -14,24 +14,11 @@ class LeadsModel extends Model
     protected $createdField  = 'created_at';
     protected $updatedField  = 'updated_at';
     protected $validationRules = [
-        'first_name' => 'required|min_length[2]|max_length[50]',
-        'last_name'  => 'required|min_length[2]|max_length[50]',
+        'first_name' => 'required|min_length[2]|max_length[100]',
+        'last_name'  => 'required|min_length[2]|max_length[100]',
         'email'      => 'required|valid_email|is_unique[leads.email]',
-        'phone'      => 'required|min_length[10]|max_length[15]',
+        'phone'      => 'required|min_length[10]|max_length[20]',
         'birthdate'  => 'required|valid_date[Y-m-d]',
-        'extra'      => 'permit_empty|json',
+        'extra'      => 'permit_empty|valid_json',
     ];
-
-    public function getLeads($id = null)
-    {
-        if ($id) {
-            return $this->where('id', $id)->first();
-        }
-        return $this->findAll();
-    }
-
-    public function createLead($data)
-    {
-        return $this->insert($data);
-    }
 }

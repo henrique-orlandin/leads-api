@@ -13,6 +13,7 @@ use CodeIgniter\Filters\PageCache;
 use CodeIgniter\Filters\PerformanceMetrics;
 use CodeIgniter\Filters\SecureHeaders;
 use App\Filters\AuthFilter;
+use App\Filters\LogsFilter;
 
 class Filters extends BaseFilters
 {
@@ -35,7 +36,8 @@ class Filters extends BaseFilters
         'forcehttps'    => ForceHTTPS::class,
         'pagecache'     => PageCache::class,
         'performance'   => PerformanceMetrics::class,
-        //'authFilter'    => AuthFilter::class,
+        'authFilter'    => AuthFilter::class,
+        'logsFilter'    => LogsFilter::class,
     ];
 
     /**
@@ -105,5 +107,5 @@ class Filters extends BaseFilters
      *
      * @var array<string, array<string, list<string>>>
      */
-    public array $filters = [];
+    public array $filters = ['logsFilter' => ['before' => ['leads/*', 'token/*'], 'after' => ['leads/*', 'token/*']]]; // Logs filter for all routes
 }
